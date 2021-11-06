@@ -1,0 +1,96 @@
+.background_music_div {
+    width: min-content;
+    margin: auto;
+}
+
+.body {
+    background-color: #15202B;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 100%;
+}
+
+.buttons_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.gameArea {
+    position: relative;
+    margin: auto;
+    border: 3px solid red;
+    border-top: none;
+}
+
+.menu_div {
+    margin: auto;
+    border: 3px solid red;
+    border-collapse: collapse;
+}
+
+.restart_div {
+    border-top: 3px solid red;
+}
+
+.restart_button {
+    height: 40px;
+    width: auto;
+}
+
+.field {
+    height: auto;
+    position: absolute;
+    cursor: pointer;
+}
+
+.info_box {
+    color: red;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: capitalize;
+    background-color: #22303C;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+}
+
+.win_text {
+    text-align: center;
+    color: blue;
+}
+
+.game_over_text {
+    text-align: center;
+    color: red;
+}
+
+.top_list_text {
+    font-size: x-large;
+    color: yellow;
+    text-align: center;
+    border-bottom: 3px solid yellow;
+    padding: 10px;
+}
+
+.table_column {
+    color: white;
+    font-size: medium;
+    text-transform: capitalize;
+    text-align: center;
+    width: 20px;
+}
+
+.top_list_table {
+    border: 3px solid red;
+    border-top: none;
+    background-color: #22303C;
+    margin: auto;
+}
